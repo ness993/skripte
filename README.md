@@ -1,3 +1,3 @@
 # skripte
-# defrag.sh
+## defrag.sh
 	Skripta za defragmentiranje diska
