@@ -14,8 +14,11 @@ sudo apt-get update && sudo apt-get install e4defrag
 clear
 echo "*************************************************"
 echo "******Give me disk or directory to defrag********"
-echo "%%%%%%This weel defrag all in /dev/*%%%%%%%%%%%%%"
 echo "*************************************************"
+echo ""
+echo "Write destination for defraging Examp. /dev/sda"
+read destinacija
+
 read -p "Press ENTER to Continiue with e4defrag"
-sudo e4defrag -v /dev/*
+sudo e4defrag -v $destinacija
 exit
